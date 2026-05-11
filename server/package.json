@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "E-commerce backend server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.15.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "exceljs": "^4.4.0",
+    "express": "^4.22.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.4.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^7.8.9",
+    "natural": "^8.1.1",
+    "nodemailer": "^8.0.7",
+    "pdfkit": "^0.18.0",
+    "simple-statistics": "^7.8.9",
+    "stripe": "^22.1.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.24",
+    "nodemon": "^3.1.14"
+  }
+}
